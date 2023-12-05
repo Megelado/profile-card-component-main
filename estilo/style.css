@@ -14,7 +14,11 @@ html, body {
 main {
     width: 100vw;
     height: 100vh;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-position: -50% -490px, 145% 250px;
+    background-repeat: no-repeat;
     background-color: hsl(185, 75%, 39%);
+    min-height: 100vh;
     display: flex;
 }
 
